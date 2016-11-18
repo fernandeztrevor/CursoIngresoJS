@@ -8,18 +8,33 @@ function Rectangulo ()
 {
 var largo
 var ancho
-var radio
 var rectangular
- largo=document.getElementById('largo').value;
- ancho=document.getElementById('ancho').value;
-rectangular=parseint(largo'*2]
- alert ("")
+ largo=document.getElementById('Largo').value;
+ ancho=document.getElementById('Ancho').value;
+rectangular=parseInt(largo*6)+parseInt(ancho*6);
+ alert ("Usted necesita "+rectangular+"m de alambre");
 }
 function Circulo () 
 {
-	
+var radio
+var circular
+ radio=document.getElementById('Radio').value;
+circular=2*radio*3.14*3
+ alert ("Usted necesita "+circular+"m de alambre");	
 }
 function Materiales () 
 {
-	
+var largo
+var ancho
+var cemento
+var cal
+var superficie
+largo=document.getElementById('Largo').value;
+ancho=document.getElementById('Ancho').value;
+cemento=2;
+cal=3;
+superficie=largo*ancho;
+cantidadCemento=superficie*cemento;
+cantidadCal=superficie*cal;
+alert ("Usted necesita "+cantidadCemento+" bolsas de cemento y "+cantidadCal+"bolsas de cal.");
 }
