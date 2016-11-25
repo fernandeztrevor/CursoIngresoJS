@@ -53,6 +53,8 @@ function CalcularPrecio ()
  		{
  		precio=parseInt(cantidad)*precioLampara*0.85;
  		}
+ 		else
+ 		{
  		if (marca=="FelipeLamparas") 
  		{
  		precio=parseInt(cantidad)*precioLampara*0.9;
@@ -61,6 +63,7 @@ function CalcularPrecio ()
  			{
  				precio=parseInt(cantidad)*precioLampara*0.95;
  			}
+ 		}
  	}
 
 
