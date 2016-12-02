@@ -1,0 +1,12 @@
+var=diaIngresado
+diaingresado=prompt("Ingrese el día")
+
+switch(diaIngresado)
+{
+case sabado:
+case domingo:
+alert ("Es fin de semana")
+break
+default:
+alert ("A trabajar")
+}

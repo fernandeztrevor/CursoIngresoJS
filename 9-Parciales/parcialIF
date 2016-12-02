@@ -1,0 +1,24 @@
+var=primerNumero;
+var=segundoNumero;
+var=resultadoIgual;
+var=resultadoResta;
+var=resultadoSuma;
+
+primerNumero=prompt("Ingrese el primer número");
+segundoNumero=prompt("Ingrese el segundo número");
+
+if(primerNumero==segundoNumero)
+{
+	resultadoIgual=parseInt(primerNumero)*parseInt(segundoNumero)
+	alert("El resultado es "+resultadoIgual)
+};
+if(primerNumero>segundoNumero)
+{
+	resultadoResta=parseInt(primerNumero)-parseInt(segundoNumero)
+	alert("El resultado es "+resultadoResta)
+};
+else
+{
+	resultadoSuma=parseInt(primerNumero)++parseInt(segundoNumero)
+	alert("El resultado es "+resultadoSuma)
+}
